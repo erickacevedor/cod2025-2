@@ -11,7 +11,7 @@ AudioMixPreset@0;5555;35888 =
 AudioWantedChannelsNumber@0;59395;43096 = 2 // 0 to 16
 
 // Adjusts the volume of audio in Cinematics
-CinematicVolume@0;14317;21371 = 0.000000 // 0.000000 to 1.000000
+CinematicVolume@0;14317;21371 = 0.200000 // 0.000000 to 1.000000
 
 // Adjusts the volume of the sound effects
 EffectsVolume@0;14317;21371 = 1.000000 // 0.000000 to 1.000000
@@ -53,7 +53,7 @@ MicThresholdAggressive@0;30099;58954 = 1.995262 // 0.000000 to 100.000000
 MicThresholdLoud@0;30099;60883 = 7.943282 // 0.000000 to 100.000000
 
 // Adjusts the volume of the music
-MusicVolume@0;14317;21371 = 0.740000 // 0.000000 to 1.000000
+MusicVolume@0;14317;21371 = 0.700000 // 0.000000 to 1.000000
 
 // Sets whether audio should be muted when the game window is out of focus
 MuteAudioWhileOutOfFocus@0;57752;48403 = false
@@ -65,28 +65,28 @@ TelescopeVolume@0;14317;21371 = 1.000000 // 0.000000 to 1.000000
 VoicePushToTalk@0;57752;20945 = false
 
 // Adjusts the volume for character dialogues and announcer voices
-VoiceVolume@0;14317;21371 = 0.000000 // 0.000000 to 1.000000
+VoiceVolume@0;14317;21371 = 0.500000 // 0.000000 to 1.000000
 
 // Adjusts overall volume of the game
-Volume@0;14317;21371 = 0.600000 // 0.000000 to 1.000000
+Volume@0;14317;21371 = 0.640000 // 0.000000 to 1.000000
 
 // War Tracks Volume
 WarTracksVolume@0;14317;21371 = 1.000000 // 0.000000 to 1.000000
 
 // Microphone device requested by the user
-SoundInputDevice@0;2059;35888 = {0.0.1.00000000}.{766718c5-e3c6-467a-b738-5adb2e4c2026}
+SoundInputDevice@0;2059;35888 = {0.0.1.00000000}.{14e1d1d8-16dd-493c-a81b-2f9d8dc706fd}
 
 // Speaker device requested by the user
-SoundOutputDevice@0;2059;35888 = {0.0.0.00000000}.{e0861e6c-3777-40c2-ba12-c6d4d43a5028}
+SoundOutputDevice@0;2059;35888 = {0.0.0.00000000}.{b337cca5-4d0e-494f-9cc5-d1ced9285ee4}
 
 // Voice device requested by the user
-VoiceOutputDevice@0;2059;35888 = {0.0.0.00000000}.{55458af4-ed79-4aef-a8a9-ef8393553be0}
+VoiceOutputDevice@0;2059;35888 = {0.0.0.00000000}.{b337cca5-4d0e-494f-9cc5-d1ced9285ee4}
 
 // whether to allow MS's 3D spatializer 'Windows Sonic' mode or (false) present a standard 7.1 mix
 WindowsSonicEnable@0;57752;48403 = false
 
 // Sets whether Embody Immerse spatial headphone tech is enabled
-ImmerseSpatialAudio@0;57752;48403 = false
+ImmerseSpatialAudio@0;57752;48403 = true
 
 
 //
@@ -102,7 +102,7 @@ ConstrainMouse@1;17649;48403 = false
 DisplayGamma@0;57228;7764 = BT709_sRGB // one of BT709_sRGB, BT709_BT1886
 
 // Fullscreen mode
-DisplayMode@0;22564;11445 = Fullscreen // one of Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
+DisplayMode@0;22564;11445 = Fullscreen borderless window // one of Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
 
 // Enable focused mode
 FocusedMode@0;57752;48403 = false
@@ -114,7 +114,7 @@ FocusedModeOpacity@0;14317;7707 = 0.900000 // 0.000000 to 1.000000
 Monitor@0;2059;35888 = K-M27G180
 
 // Fullscreen mode preference
-PreferredDisplayMode@0;15994;7764 = Fullscreen // one of Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
+PreferredDisplayMode@0;15994;7764 = Fullscreen borderless window // one of Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
 
 // Refresh rate of used monitor
 RefreshRate@0;56178;35888 = Auto
@@ -126,7 +126,7 @@ VSyncInMenu@0;55075;11445 = disabled // one of disabled, 100%, 50%, 33%, 25%
 WindowHeight@0;64387;17138 = 400 // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized@0;57752;48403 = false
+WindowMaximized@0;57752;48403 = true
 
 // Window width
 WindowWidth@0;64387;12850 = 640 // 0 to 32767
@@ -215,7 +215,7 @@ AATechniquePreferredMP@0;47961;48403 = SMAA // one of SMAA, DLSS, XeSS, FSR AA
 AbsoluteTargetResolution@0;64285;26972 = none // one of 540P, 640P, 720P, 900P, 1080P, 1440P, native, none
 
 // Show bullet impacts
-BulletImpacts@0;57752;20945 = false
+BulletImpacts@0;57752;20945 = true
 
 // Corpses culling threshold
 CorpsesCullingThreshold@0;62572;12490 = 0.850000 // 0.500000 to 1.000000
@@ -239,13 +239,13 @@ StaticSunshadowClipmapResolution@0;21851;46253 = 1024 // 0 to 2147483647
 STLodSkip@0;52787;7764 = 0 // 0 to 5
 
 // Tessellation quality level
-Tessellation@0;27349;11445 = 0_Off // one of 0_Off, 1_Near, 2_All
+Tessellation@0;27349;11445 = 2_All // one of 0_Off, 1_Near, 2_All
 
 // Texture filtering quality level
-TextureFilter@0;63279;8284 = aniso 2x // one of aniso 2x, aniso 4x, aniso 8x, aniso 16x
+TextureFilter@0;63279;8284 = aniso 16x // one of aniso 2x, aniso 4x, aniso 8x, aniso 16x
 
 // Texture quality level, high to low ( higher number means lower resolution )
-TextureQuality@0;61129;7764 = 3 // 0 to 3
+TextureQuality@0;61129;7764 = 2 // 0 to 3
 
 // Ui Quality
 UiQuality@0;42500;43096 = Auto // one of 1080P, 4K, Auto
@@ -302,7 +302,7 @@ DLSSSharpnessMP@0;14317;40397 = 0.500000 // 0.000000 to 1.000000
 DLSSRRPerfModeMP@0;27441;20945 = Maximum Performance // one of Ultra Performance, Maximum Performance, Balanced, Maximum Quality, Native Resolution
 
 // Activate Nvidia DLSS Frame Generation
-DLSSFrameGeneration@0;57752;48403 = false
+DLSSFrameGeneration@0;57752;48403 = true
 
 // Enable NVIDIA Image Scaling
 NVIDIAImageScalingMP@0;57752;48403 = false
@@ -320,13 +320,13 @@ AmbientLightingQuality@0;20439;58629 = Off // one of Off, Low, Medium, High, Ult
 GraphicsQuality@0;9088;43096 = Balanced // one of Minimum, Basic, Balanced, Ultra, Extreme
 
 // Models quality level
-ModelQuality@0;15002;43096 = Low Quality // one of Low Quality, Medium Quality, High Quality
+ModelQuality@0;15002;43096 = High Quality // one of Low Quality, Medium Quality, High Quality
 
 // Particle quality level
-ParticleQuality@0;60198;58629 = very low // one of very low, low, medium, high
+ParticleQuality@0;60198;58629 = medium // one of very low, low, medium, high
 
 // Shadow Quality Level
-ShadowQuality@0;3981;58629 = Very_Low // one of Very_Low, Low, Medium, High, Very_High
+ShadowQuality@0;3981;58629 = Low // one of Very_Low, Low, Medium, High, Very_High
 
 // Set HDR activation mode. Option only takes effect on HDR Display.
 HDR@0;3781;43096 = Off // one of Off, On, Automatic
