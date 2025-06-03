@@ -96,7 +96,7 @@ Sprint Assist Delay Gamepad@1;23176;7764 = 0 // 0 to 12750
 // Display
 
 // Adjusts the brightness of the game
-Brightness@0;8382;7764 = 0.500000 // -0.500000 to 0.500000
+Brightness@0;8382;7764 = 0.400000 // -0.500000 to 0.500000
 
 // Target refresh rate
 TargetRefreshRate@0;48261;11445 = 120 Hz // one of 60 Hz, 120 Hz

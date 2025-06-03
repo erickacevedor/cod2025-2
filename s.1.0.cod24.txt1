@@ -102,7 +102,7 @@ ConstrainMouse@1;17649;48403 = false
 DisplayGamma@0;57228;7764 = BT709_sRGB // one of BT709_sRGB, BT709_BT1886
 
 // Fullscreen mode
-DisplayMode@0;22564;11445 = Fullscreen borderless window // one of Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
+DisplayMode@0;22564;11445 = Fullscreen // one of Windowed, Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
 
 // Enable focused mode
 FocusedMode@0;57752;48403 = false
@@ -114,7 +114,7 @@ FocusedModeOpacity@0;14317;7707 = 0.900000 // 0.000000 to 1.000000
 Monitor@0;2059;35888 = K-M27G180
 
 // Fullscreen mode preference
-PreferredDisplayMode@0;15994;7764 = Fullscreen borderless window // one of Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
+PreferredDisplayMode@0;15994;7764 = Fullscreen // one of Fullscreen, Fullscreen borderless window, Fullscreen borderless extended window
 
 // Refresh rate of used monitor
 RefreshRate@0;56178;35888 = Auto
@@ -123,19 +123,19 @@ RefreshRate@0;56178;35888 = Auto
 VSyncInMenu@0;55075;11445 = disabled // one of disabled, 100%, 50%, 33%, 25%
 
 // Window height
-WindowHeight@0;64387;17138 = 400 // 0 to 32767
+WindowHeight@0;64387;17138 = 759 // 0 to 32767
 
 // Window is maximized on boot
-WindowMaximized@0;57752;48403 = true
+WindowMaximized@0;57752;48403 = false
 
 // Window width
-WindowWidth@0;64387;12850 = 640 // 0 to 32767
+WindowWidth@0;64387;12850 = 1288 // 0 to 32767
 
 // Window X position
-WindowX@0;8975;53132 = -32768 // -32768 to 32767
+WindowX@0;8975;53132 = 185 // -32768 to 32767
 
 // Window Y position
-WindowY@0;8975;53132 = -32768 // -32768 to 32767
+WindowY@0;8975;53132 = 155 // -32768 to 32767
 
 // Enables AMD Antilag 2.
 AmdAntilag2@0;57752;48403 = false
@@ -157,7 +157,7 @@ VSync@0;55075;7764 = disabled // one of disabled, 100%, 50%, 33%, 25%
 // Gameplay
 
 // Apply custom framerate limit
-CapFps@0;57752;20945 = true
+CapFps@0;57752;20945 = false
 
 // maximum number of AI corpses
 CorpseLimit@0;18638;7094 = 0 // 0 to 28
@@ -242,10 +242,10 @@ STLodSkip@0;52787;7764 = 0 // 0 to 5
 Tessellation@0;27349;11445 = 2_All // one of 0_Off, 1_Near, 2_All
 
 // Texture filtering quality level
-TextureFilter@0;63279;8284 = aniso 16x // one of aniso 2x, aniso 4x, aniso 8x, aniso 16x
+TextureFilter@0;63279;8284 = aniso 8x // one of aniso 2x, aniso 4x, aniso 8x, aniso 16x
 
 // Texture quality level, high to low ( higher number means lower resolution )
-TextureQuality@0;61129;7764 = 2 // 0 to 3
+TextureQuality@0;61129;7764 = 1 // 0 to 3
 
 // Ui Quality
 UiQuality@0;42500;43096 = Auto // one of 1080P, 4K, Auto
@@ -293,10 +293,10 @@ GPUUploadHeaps@0;57752;20945 = false
 DLSSModeMP@0;43179;20945 = DLSS // one of DLSS, DLAA, DLSS-D
 
 // DLSS performance mode
-DLSSPerfModeMP@0;27441;8284 = Maximum Quality // one of Ultra Performance, Maximum Performance, Balanced, Maximum Quality
+DLSSPerfModeMP@0;27441;8284 = Balanced // one of Ultra Performance, Maximum Performance, Balanced, Maximum Quality
 
 // DLSS Sharpness.
-DLSSSharpnessMP@0;14317;40397 = 0.500000 // 0.000000 to 1.000000
+DLSSSharpnessMP@0;14317;40397 = 0.800000 // 0.000000 to 1.000000
 
 // DLSS-RR performance mode
 DLSSRRPerfModeMP@0;27441;20945 = Maximum Performance // one of Ultra Performance, Maximum Performance, Balanced, Maximum Quality, Native Resolution
@@ -323,7 +323,7 @@ GraphicsQuality@0;9088;43096 = Balanced // one of Minimum, Basic, Balanced, Ultr
 ModelQuality@0;15002;43096 = High Quality // one of Low Quality, Medium Quality, High Quality
 
 // Particle quality level
-ParticleQuality@0;60198;58629 = medium // one of very low, low, medium, high
+ParticleQuality@0;60198;58629 = high // one of very low, low, medium, high
 
 // Shadow Quality Level
 ShadowQuality@0;3981;58629 = Low // one of Very_Low, Low, Medium, High, Very_High
@@ -461,7 +461,7 @@ RecommendedSet@0;57752;48403 = true
 RendererWorkerCount@0;51989;59387 = 7 // -1 to 16
 
 // Set a target fraction of your PC's video memory to be used by the game. Affects Multiplayer gamemodes
-VideoMemoryScaleMP@0;59710;7707 = 0.900000 // 0.000000 to 2.000000
+VideoMemoryScaleMP@0;59710;7707 = 0.700000 // 0.000000 to 2.000000
 
 // Version of the last display driver used to run the game
 DisplayDriverVersion@0;5555;35888 = 572.83
